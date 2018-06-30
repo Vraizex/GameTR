@@ -1,34 +1,34 @@
-//#include<iostream>
-//#include<string>
-//#include<cstdlib>
-//#include<ctime>
-//using namespace std;
-//int main()
-//{
-//	setlocale(LC_ALL,"Russian");
-//
-//	int secNumber = rand() % 100 + 1;
-//	int tries = 0;
-//	int guess;
-//	cout << "Äîáðî ïîæàëîâàòü â Èãðó"<< endl;
-//	do
-//	{
-//		cout << "Ââåñòè ÷èñëî"<<endl;
-//		cin >> guess;
-//		++tries;
-//		if (guess > secNumber)
-//		{
-//			cout << "×èñëî ìåíüøå" << endl;
-//		}
-//		else if (guess < secNumber)
-//		{
-//			cout << "×èñëî áîëüøå" << endl;
-//		}
-//		else
-//		{
-//			cout << "Êîëè÷åñòâî ïîâûòîê: " <<tries <<endl;
-//		}
-//	} while (guess != secNumber);
-//	system("pause");
-//	return 0;
-//}
+#include<iostream>
+#include<string>
+#include<cstdlib>
+#include<ctime>
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL,"Russian");
+
+	int secNumber = rand() % 100 + 1;
+	int tries = 0;
+	int guess;
+	cout << "Ã„Ã®Ã¡Ã°Ã® Ã¯Ã®Ã¦Ã Ã«Ã®Ã¢Ã Ã²Ã¼ Ã¢ ÃˆÃ£Ã°Ã³"<< endl;
+	do
+	{
+		cout << "Ã‚Ã¢Ã¥Ã±Ã²Ã¨ Ã·Ã¨Ã±Ã«Ã®"<<endl;
+		cin >> guess;
+		++tries;
+		if (guess > secNumber)
+		{
+			cout << "Ã—Ã¨Ã±Ã«Ã® Ã¬Ã¥Ã­Ã¼Ã¸Ã¥" << endl;
+		}
+		else if (guess < secNumber)
+		{
+			cout << "Ã—Ã¨Ã±Ã«Ã® Ã¡Ã®Ã«Ã¼Ã¸Ã¥" << endl;
+		}
+		else
+		{
+			cout << "ÃŠÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® Ã¯Ã®Ã¢Ã»Ã²Ã®Ãª: " <<tries <<endl;
+		}
+	} while (guess != secNumber);
+	system("pause");
+	return 0;
+}
