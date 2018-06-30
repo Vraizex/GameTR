@@ -1,19 +1,19 @@
-//#include<iostream>
-//using namespace std;
-//int main()
-//{
-//	setlocale(LC_ALL, "Russian");
-//
-//	const int ALIEN_POINTS = 150;
-//	int aliensKilled = 10;
-//	int score = aliensKilled * ALIEN_POINTS;
-//	cout << "Ðåêîðä:" << score << endl;
-//	enum difficulty {NOVICE, EASY, NORMAL,HARD, UNBEARABLE};
-//	difficulty myDifficulty = EASY;
-//	enum shipCost {FIGHTER_COST = 25, BOMBER_COST, CRUISER_COST = 50};
-//	shipCost myShipCost = BOMBER_COST;
-//	cout << "îáíîâèòü êîðàáëü äëÿ ïîáåäû  " <<(CRUISER_COST - myShipCost) << "  Ïîëó÷åííûå î÷êè.\n" ;
-//	system("pause");
-//	return 0;
-//
-//}
+#include<iostream>
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+
+	const int ALIEN_POINTS = 150;
+	int aliensKilled = 10;
+	int score = aliensKilled * ALIEN_POINTS;
+	cout << "ÃÃ¥ÃªÃ®Ã°Ã¤:" << score << endl;
+	enum difficulty {NOVICE, EASY, NORMAL,HARD, UNBEARABLE};
+	difficulty myDifficulty = EASY;
+	enum shipCost {FIGHTER_COST = 25, BOMBER_COST, CRUISER_COST = 50};
+	shipCost myShipCost = BOMBER_COST;
+	cout << "Ã®Ã¡Ã­Ã®Ã¢Ã¨Ã²Ã¼ ÃªÃ®Ã°Ã Ã¡Ã«Ã¼ Ã¤Ã«Ã¿ Ã¯Ã®Ã¡Ã¥Ã¤Ã»  " <<(CRUISER_COST - myShipCost) << "  ÃÃ®Ã«Ã³Ã·Ã¥Ã­Ã­Ã»Ã¥ Ã®Ã·ÃªÃ¨.\n" ;
+	system("pause");
+	return 0;
+
+}
